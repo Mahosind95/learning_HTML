@@ -1,0 +1,102 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	background-color: #abcdef;
+}
+h1{
+	text-align: center;
+	color:#123456;
+	text-decoration: underline;
+}
+div {
+	position: relative;
+	float : left;
+	background-color: #dddddd;
+	padding: 0px;
+	border: 1px solid black;
+	margin: 1.5%;
+	text-decoration: bold;
+	padding: 5px;
+}
+p
+{
+	position: relative;
+	top: 15px;
+	margin:10px;
+	padding:10px;
+	font-family: "Georgia","Serif"
+
+}
+h2
+{
+	position: absolute;
+	top:0;
+	right:0;
+    margin: 0;
+    padding :0;
+    width:175px;
+    text-align: center;
+	background-color : 	#F08080;
+    border: 1px solid black;
+}
+#chem
+{
+	background-color: #F5C52C;
+}
+#bio
+{
+	background-color:	#F4A460;
+}
+h2:hover
+{
+	background-color: #7FFF00;
+	cursor: pointer;
+}
+#chem:hover
+{
+	background-color: #7FFF00;
+	cursor: pointer;
+}
+#bio:hover
+{
+	background-color: #7FFF00;
+	cursor: pointer;
+}
+
+
+@media(min-width: 992px)
+{
+	div
+	{
+		width: 30%;
+		min-height: 337px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+	div
+	{
+		width:45%;
+		min-height: 238px;
+	}
+	#header3
+	{
+		width:93%;
+	}
+	
+
+}
+@media(max-width: 767px)
+{
+
+	div
+	{
+		float : left;
+		width : 90%;
+	}	
+
+}
